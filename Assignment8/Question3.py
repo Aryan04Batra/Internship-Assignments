@@ -17,3 +17,5 @@ df3=pd.DataFrame({
 result=pd.concat([df1,df2],axis=0)
 print(result)
 print(df1.merge(result,on="ID"))
+
+
